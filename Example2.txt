@@ -1,0 +1,9 @@
+Python code
+
+
+
+Animals = {"lion": "Lions are known as the kings of the jungle",  
+            "elephant": "Elephants have a great memory"} 
+print(Animals)
+Output
+{'lion': 'Lions are known as the kings of the jungle', 'elephant': 'Elephants have a great memory'}

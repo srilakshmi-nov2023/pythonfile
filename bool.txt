@@ -1,0 +1,63 @@
+			=====================================================
+					3. bool
+			=====================================================
+=>'bool' is one of the pre-defined class and treated as Fundamental data Types.
+=>The purpose of bool data type is that "To Store True and False Values".
+=>True is a keyword and it is the value of bool data type
+=>False is a keyword and it is the value of bool data type
+=>Internally, In Python Programming, True is Considered as 1 and False is  Considered as 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+Examples:
+--------------------------------------------------------------------------------------------------------------------------------------------
+>>> a=True
+>>> b=False
+>>> print(a,type(a))-----------True <class 'bool'>
+>>> print(b,type(b))----------False <class 'bool'>
+>>> a=true-----------NameError: name 'true' is not defined. 
+>>> a=false-----------NameError: name 'false' is not defined
+--------------------------------------------------------------------------------------------------------------------------------------------
+>>> print(True+False)------------------1
+>>> print(True*True)--------------------1
+>>> print(True-True*False)-----------1
+>>> print(True*True-True)-----------0
+>>> print(True*True*True)-------------1
+-----------------------------------------------------------------------
+>>> print(2.3+True-True)------------------2.3
+>>> print(True+False*True*10)-------------1
+>>> print(0b1010+True-False+True)--------12
+>>> print(0b1111*True-10*True)--------5
+>>> print(False/True)-------------------0.0
+>>> print(False//True)-----------------0
+>>> print(False//False)-----------------ZeroDivisionError: integer division or modulo by zero
+>>> print(True//False)----------ZeroDivisionError: integer division or modulo by zero
+-------------------------------------------------------------------------
+>>> bin(True)----------------------'0b1'
+>>> bin(False)---------------------'0b0'
+>>> oct(True)---------------------'0o1'
+>>> oct(False)-------------------'0o0'
+>>> hex(True)-------------------'0x1'
+>>> hex(False)--------------------'0x0'
+==================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

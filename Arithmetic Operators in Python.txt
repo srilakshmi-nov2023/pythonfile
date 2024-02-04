@@ -1,0 +1,12 @@
+Operator                           Description                           Syntax                                                 
+     +                Addition:adds two operands                     x+y
+     -                Subtraction:subtracts two operands        x-y
+    *                Multiplication:multiplies two operands  x*y
+    /                Division(float):divides the first operand  x/y
+                      by the second
+  //                Division(floor):divides the first operand  x//y
+                     by the second
+ %                Modules:returns the reaminder when     x%y
+                   first operand by the second
+ **             Power(Exponent):returns first raised to   x**y
+                 power second

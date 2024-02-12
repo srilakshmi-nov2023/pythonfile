@@ -1,0 +1,261 @@
+Linux Commands
+
+Shell Scripting  ---> Automate the task by provide some script
+
+SCM (Source Code Management)  Tools--->GitHub,BitBucket,GitLab,Azure Repso-,Code Comit ..etc-> 	To maintain the source code -->Repositories
+
+Build tools -->Maven,Gradle,Ant,npm,pip ...etc
+Web Servers -->Nginx,Apache HTTPD,HAProxy
+App Server ---> Tomcat,Jboss,Weblogic,WehSphere,NodeJs,Python
+Code Quality --> SonarQube,VeraCode,Checkmark
+Artifactory  --> Nexus,JFrog,Azure Artifacts ...etc  --->Build Artifacts(war/zip)
+CI /CD (continuous integration and continuou deployment)Tools -->
+ CI Tools --> Jenkins,Bamboo,GitLab,GitActions,Travis CI,Circle CI, Argo CI ,Azure CI ...etc
+ CD Tools --> Jenkins,UCD,SplunkxArgoCd,GitLab,Azure CD ...etc
+Configuration Management Tool -->Ansible,Chef,Puppet,SaltStack
+
+AWS
+
+
+What is DevOps?
+It's a Concern various teams involved in this
+
+Application Team(Development Team)
+Build & Release Management
+Infrastrurture Team
+Testing Team
+
+[There are various types of applications]
+
+Standalone Application
+----> Sta
+Design to run local machine
+
+
+Web Applications --> The application which is hosted in a remote machines different servers
+  --Static Web Application ---->GUI/UI (Graphincal User Interface) -->UI /FrontEnd Developers
+                                                                                                                            HTM,CSS,JavaScript,React JS,Redux
+                 fixed content, it is not going to take any input ex: blogs
+                 http://www.mithuntechnologies.com/devops/DevOpsToolsMithunTechnologies.html
+          
+ --Dynamic Web Application -->Presentation Tier (GUI/UI) --> UI/FrontEnd Developers
+                                                                                                              HTML,CSS,JavaScript,React JS,Redux
+                                                   --> Application Tier (API) --> API Developers/Back End Develpers -->                                        
+                                                                                                              Java,NodeJS,Python,Go Long, #.Net ..etc
+                                                   --> Data Tier    ---> Data Base Adminstrators (DBA)
+                                                           SQL Databases    -->MySQL,Oracle,Postgress,SQL,MY SQL Server, Maria DB
+                                                           NoSQL Databases  --> MangoDB,Cassandra,Couchbase etc
+
+Mobile Application etc
+
+LIC
+
+Application Life Cycle
+----------------------------
+1) Requirement
+2)Design
+3)Implementation(Development)
+4)Deployment
+5)Testing
+6)Delivery (production)
+7) Maintinance
+
+Infosys
+TCS 
+Capgemini
+IBM
+CTS
+...etc These are service based companies
+
+LIC
+
+01-11-2023
+----------------
+What is infrastructure?
+Why do we need Infrastructure?
+On premise Infrstracture
+What is Cloud?
+
+Compute(CPU + Memory (RAM))
+
+AWS
+
+EC2
+EBS
+EFS
+VPC
+S3
+ELB
+EKS
+ECR
+
+ComputeEngine
+GCR
+
+CSP --->Cloud Service Provider
+AWS 
+MicroSoft Azure
+GCP
+IBM Cloud
+Alibaba Cloud
+Infrastracture
+-------------------
+             Application
+                     |
+                    V           
+           Database
+                    |
+                   V
+                 OS
+                  |
+                 V
+         Hardware
+
+
+02-11-2023
+----------------
+AWS Certification
+
+12 + Services
+
+EC2 
+EBS
+EFS
+S3
+VPC
+ELB
+
+
+Types of cloud computing
+
+1)Public cloud
+   public clouds are owned and operated by a third-party cloud service providers, which deliver their computing resources like servers and storage over the internet.
+ex: AWS,Microsoft Azure,GCP 
+
+2)Private cloud
+
+A private cloud refers to cloud computing resources used exclusively by a single business or organisation. A Private cloud can be physically located on the company's on-site(premise) datacenter. Some complanies also pay third-party service providers to host their private cloud.
+
+3)Hybrid cloud
+   Hybrid clouds combine public and private clouds, bound together by technology that allows data and applications to be shared between them. By allowing data and applications to move between private and public clouds, a hybrid cloud gives your business greater flexibility, more deployment options and helps optimise your existing infrastructure,security and compliance.
+
+4)Multi cloud
+    Multi-cloud is a startegy where an organiszation leverages two or more cloud computing platforms various tasks. Organizations that do not want to depend on asingle cloud provider may choose to use resources from several providers to get the best benifits from each unique service.
+
+Cloud Service Models:
+   IAAS(Infrastructure as a service)
+  PAAS(Platform as a service)
+  SAAS(Software as a service)
+
+EC2  --> Compute(Servers) as a Service
+
+Popular Cloud Provders
+-Amazon Web Services
+-Microsoft Azure
+-Google Cloud Platform
+-IBM Cloud 
+-Alibaba Cloud
+-Oracle Cloud
+-Racspace
+-Salesforce
+-VMware Cloud
+
+AWS started service from2004
+
+Regions and availabity zones
+-----------------------------------------
+
+102 Availability zones
+32 Region
+
+Regions 
+----------
+ Amazon service  are hosted in multiple locations world-wide.
+These locations are composed of regions(Logical Name) and Availability Zones(Physical).
+Each regions is a separate geographic area.
+Region Represents Some Geo Graphic Lication.
+
+03-11-2023
+-----------------
+EC2 --> Elastic Compute Cloud.
+
+Server/Instance/hosts --- all are same
+
+
+virtual machines
+----------------------
+Oracle Virtual Box
+VMWare Fusion/WorkStation
+these are software based virtual machine
+these type2 software Hypervisors
+
+Citrix Xen
+AWS Nitro
+these are type1 hypervisors
+
+09-11-2023
+----------------
+EC2  -->Elastic Compute Cloud. It's VM in AWS Cloud (Data Centers)
+
+Tags  ---> Labels(Key,Value pairs)
+                     Identification,Governance,Filters,Reports.
+
+
+AMI  --> Amazon Machine Image. It's preconfigured package 
+              which contains O.S, Softwares & Settings.
+
+              Community AMI's    --->O.S 
+               MarketPlace AMI's   -->O.S and some licenced softwares
+               My AMI's                    ---> We can create our own O.S's
+
+Instance Type
+  General Purpose
+  Compute Optimized
+  Memory Optimized
+  Storage Optmized
+
+What is instance(Local) Storage
+
+
+ping <IPAddress>
+telnet <IPAdress> <port>
+
+curl -v telnet://<public ip>:portno
+
+curl -v http://<public ip>
+
+ls -lar
+netstat
+
+Ec2-->Comput (CPU + Memory)
+
+Storage Services in AWS
+--------------------------------
+Storage Types:
+Block Store -->ICISI protocols
+File Store  ---> NGD,SMB protocols
+Object Store -->HTTP,HTTPS Rest API
+
+Storage
+  			      AWS Services
+ Block Store  --->EBS
+                             Instance Storage
+File Store --->EFS ,Amazonfsx
+Object Store-->S3(Simple Storage Service )
+
+
+General Purpose  SSD(gp2) -->min 1GB max 16TB (16384 Gi)
+General Purpose SSD (gp3) --> Min 1GB max 16TB 
+
+sudo mkfs 
+
+
+15-11-2023
+----------------
+s3---> Simple Storage Service
+
+Use Cases:
+  Store Your Application Static Files
+      ex: Images,Videos(mp4) , audio(mp3),
+
+https://www.davidc.net/sites/default/subnets/subnets.html

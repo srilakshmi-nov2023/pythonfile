@@ -19,12 +19,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.urlhttp://54.169.80.67:9000/</sonar.host.url>
+		<sonar.host.url>http://54.169.80.67:9000/</sonar.host.url>
 		<sonar.login>sqa_c9afd9191bcd24198410623c3225dda48a5bc903:</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-	</properties>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
